@@ -1,0 +1,13 @@
+.highlight {
+  direction: ltr !important;
+  text-align: left;
+
+  * {
+    direction: ltr !important;
+  }
+}
+
+.page-component .page-component__content {
+  padding-left: 0 !important;
+  padding-right: 270px;
+}
