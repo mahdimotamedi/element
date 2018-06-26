@@ -1,5 +1,6 @@
 @import "mixins/mixins";
 @import "common/var";
+@import "rtl/main";
 
 @include b(main) {
   flex: 1;

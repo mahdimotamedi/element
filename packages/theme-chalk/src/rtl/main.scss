@@ -1,0 +1,66 @@
+* {
+    direction: rtl !important;
+}
+
+.page-component .page-component__content {
+    padding-left: 0 !important;
+    padding-right: 270px;
+}
+
+.el-scrollbar__wrap {
+    margin-right: 0 !important;
+    margin-left: 15px !important;
+}
+
+.el-scrollbar__bar {
+    left: 2px;
+    right: auto !important;
+}
+
+.el-dialog__headerbtn {
+    right: auto;
+    left: 20px;
+}
+
+.el-form-item__label {
+    text-align: right;
+    float: right;
+    padding: 0 0 0 12px;
+}
+
+.el-form-item__content {
+    margin-right: 120px !important;
+    margin-left: 0 !important;
+}
+
+.el-form-item.is-required .el-form-item__label:before {
+    content: '';
+}
+
+.el-form-item.is-required .el-form-item__label:after {
+    content: '*';
+    color: #f56c6c;
+    margin-right: 4px;
+}
+
+.el-form-item__error {
+    right: 0;
+    left: auto;
+}
+
+.el-message__icon {
+    margin-right: 0 !important;
+    margin-left: 10px !important;
+}
+
+.el-message__closeBtn {
+    left: 15px;
+    right: auto;
+}
+
+.el-dropdown-link {
+    cursor: pointer;
+}
+.el-icon-arrow-down {
+    font-size: 12px;
+}
