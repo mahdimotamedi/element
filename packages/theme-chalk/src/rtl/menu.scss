@@ -1,4 +1,18 @@
 .el-menu {
-  padding-left: 40px;
+  padding-left: 0;
   padding-right: 0;
+}
+
+.el-submenu [class^=el-icon-] {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.el-submenu__icon-arrow {
+  right: auto;
+  left: 20px;
+}
+
+.el-menu-item-group__title {
+  padding: 7px 20px 7px 0;
 }

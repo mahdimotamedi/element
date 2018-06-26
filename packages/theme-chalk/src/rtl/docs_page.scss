@@ -11,3 +11,13 @@
   padding-left: 0 !important;
   padding-right: 270px;
 }
+
+.demo-box.demo-button .el-button+.el-button {
+  margin-left: 0 !important;
+  margin-right: 10px;
+}
+
+.demo-box.demo-input-number .el-input-number+.el-input-number {
+  margin-left: 0 !important;
+  margin-right: 10px;
+}
