@@ -67,3 +67,42 @@
 .el-table th {
   text-align: right;
 }
+
+.el-tag .el-icon-close {
+  left: -5px;
+  right: auto;
+}
+
+.el-badge__content.is-fixed {
+  right: auto;
+  left: 10px;
+  transform: translateY(-50%) translateX(-100%);
+}
+
+.el-badge.mark {
+  float: left;
+}
+
+.el-badge__content.is-fixed.is-dot {
+  right: auto;
+  left: 5px;
+}
+
+.el-alert__closebtn {
+  left: 15px;
+  right: auto;
+}
+
+.el-notification__group {
+  margin-left: auto;
+  margin-right: 13px;
+}
+
+.el-notification__closeBtn {
+  left: 15px;
+  right: auto;
+}
+
+.el-card__header .el-button--text {
+  float: left !important;
+}
