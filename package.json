@@ -1,7 +1,7 @@
 {
-  "name": "element-ui",
+  "name": "vue-element-rtl",
   "version": "2.4.1",
-  "description": "A Component Library for Vue.js.",
+  "description": "A Component Library for Vue.js. RTL version",
   "main": "lib/element-ui.common.js",
   "files": [
     "lib",

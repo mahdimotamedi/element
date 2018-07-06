@@ -106,3 +106,31 @@
 .el-card__header .el-button--text {
   float: left !important;
 }
+
+.el-message-box__title {
+  text-align: right;
+}
+
+.el-message-box__headerbtn {
+  left: 15px;
+  right: auto;
+}
+
+.el-message-box__status + .el-message-box__message {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.el-message-box__status.el-icon-warning {
+  right: 15px;
+}
+
+.el-message-box__btns {
+  margin-top: 8px;
+  text-align: left !important;
+
+  button:nth-child(2) {
+    margin-left: 0 !important;
+    margin-right: 10px !important;
+  }
+}
